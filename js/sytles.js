@@ -14,10 +14,10 @@ elBtn.addEventListener('click' , function(event) {
     let elValueInput = elInput.value
     
     if(elValueSelect === 'usd'){
-        result.textContent = `~ ${Math.round(elValueInput * USDTOUZS)}`
+        result.textContent = `~ ${Math.round(elValueInput * USDTOUZS)} so'm`
     } else if(elValueSelect === 'euro'){
-        result.textContent = `~ ${Math.round(elValueInput * EUROTOUZS)}`
+        result.textContent = `~ ${Math.round(elValueInput * EUROTOUZS)} so'm`
     } else{
-        result.textContent = `~ ${Math.round(elValueInput * RUBLTOUZS)}`
+        result.textContent = `~ ${Math.round(elValueInput * RUBLTOUZS)} so'm`
     }
 })
